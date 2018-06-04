@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandHandlers\CommandHandler.cs" />
     <Compile Include="Eventos\Categoria.cs" />
     <Compile Include="Eventos\CommandHandlers\EventoCommandHandler.cs" />
     <Compile Include="Eventos\Commands\AtualizarEventoCommand.cs" />
@@ -56,9 +57,15 @@
     <Compile Include="Eventos\Commands\ExcluirEventoCommand.cs" />
     <Compile Include="Eventos\Commands\RegistrarEventoCommand.cs" />
     <Compile Include="Eventos\Endereco.cs" />
+    <Compile Include="Eventos\EventHandlers\EventoEventHandler.cs" />
     <Compile Include="Eventos\Evento.cs" />
+    <Compile Include="Eventos\Events\BaseEventoEvent.cs" />
+    <Compile Include="Eventos\Events\EventoAtualizadoEvent.cs" />
+    <Compile Include="Eventos\Events\EventoExcluidoEvent.cs" />
+    <Compile Include="Eventos\Events\EventoRegistradoEvent.cs" />
     <Compile Include="Eventos\Repository\IEventoRepository.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IUnityOfWork.cs" />
     <Compile Include="Organizadores\Organizador.cs" />
     <Compile Include="Eventos\Tags.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
