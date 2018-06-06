@@ -3,9 +3,6 @@ using Eventos.IO.Domain.Organizadores;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eventos.IO.Domain.Eventos
 {
@@ -49,21 +46,30 @@ namespace Eventos.IO.Domain.Eventos
 
         public bool Gratuito { get; protected set; }
 
+        public bool Online { get; set; }
+
         public decimal Valor { get; protected set; }
 
-        public bool OnLine { get; protected set; }
+        public bool OnLine { get; private set; }
 
-        public string NomeEmpresa { get; protected set; }
+        public string NomeEmpresa { get; private set; }
 
-        public Categoria Categoria { get; protected set; }
+        public bool Excluido { get; private set; }
 
         public ICollection<Tags> Tags { get; protected set; }
 
+        #region EF Propriedades de chave entre entidades
+        public Guid? CategoriaId { get; private set; }
+        public Guid? EnderecoId { get; private set; }
+        public Guid OrganizadorId { get; private set; }
+        #endregion
+
+        #region EF Propriedades de navegação
+        public Categoria Categoria { get; protected set; }
         public Endereco Endereco { get; protected set; }
-
         public Organizador Organizador { get; protected set; }
-
         public Dictionary<string, string> ErrosValidacao { get; set; }
+        #endregion
 
         public override bool EhValido()
         {
@@ -85,6 +91,7 @@ namespace Eventos.IO.Domain.Eventos
                 .NotEmpty().WithMessage("O nome do evento precisa ser fornecido.")
                 .Length(2, 150).WithMessage("O nome do evento precisa ter entre 2 e 150 caracteres.");
         }
+
         private void ValidarValor()
         {
             if(Gratuito)
@@ -92,6 +99,7 @@ namespace Eventos.IO.Domain.Eventos
                 .ExclusiveBetween(0 ,0).When( e => e.Gratuito)
                 .WithMessage("O valor não deve ser diferente de zero para evento gratuito.");
         }
+
         private void ValidarData()
         {
             RuleFor(n => n.DataInicio)
@@ -101,6 +109,36 @@ namespace Eventos.IO.Domain.Eventos
                 .LessThan(DateTime.Now)
                 .WithMessage("A data de início não deve ser menor que a data atual.");
         }
+
         #endregion
+
+        public static class EventoFactory
+        {
+            public static Evento NovoEventoCompleto(Guid id, string nome, string desCurta, string descLonga, 
+                                                    DateTime dataInicio, DateTime dataFim, bool gratuito, 
+                                                    decimal valor, bool online, string nomeEmpresa, Guid? OrganizadorId)
+            {
+                var evento = new Evento()
+                {
+                    Id = id,
+                    Nome = nome,
+                    DescricaoCurta = desCurta,
+                    DescricaoLonga = descLonga,
+                    DataInicio = dataInicio,
+                    DataFim = dataFim,
+                    Gratuito = gratuito,
+                    Valor = valor,
+                    Online = online,
+                    NomeEmpresa = nomeEmpresa
+                };
+
+                if (OrganizadorId != null)
+                {
+                    evento.Organizador = new Organizador(OrganizadorId.value);
+                }
+
+                return evento;
+            }
+        }
     }
 }

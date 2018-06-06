@@ -12,6 +12,6 @@ namespace Eventos.IO.Domain.Core.Events
     /// <typeparam name="T"></typeparam>
     public interface IHandler<in T> where T : Message
     {
-        void Handle(T Message);
+        void Handle(T message);
     }
 }

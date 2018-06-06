@@ -1,10 +1,6 @@
 ﻿using Eventos.IO.Domain.Core.Events;
 using Eventos.IO.Domain.Eventos.Events;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eventos.IO.Domain.Eventos.EventHandlers
 {

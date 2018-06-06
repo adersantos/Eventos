@@ -1,13 +1,12 @@
 ﻿using Eventos.IO.Domain.CommandHandlers;
+using Eventos.IO.Domain.Core.Bus;
 using Eventos.IO.Domain.Core.Events;
+using Eventos.IO.Domain.Core.Notifications;
 using Eventos.IO.Domain.Eventos.Commands;
+using Eventos.IO.Domain.Eventos.Events;
 using Eventos.IO.Domain.Eventos.Repository;
 using Eventos.IO.Domain.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Eventos.IO.Domain.Eventos.CommandHandlers
 {
@@ -18,16 +17,23 @@ namespace Eventos.IO.Domain.Eventos.CommandHandlers
     {
 
         private readonly IEventoRepository _eventoRepository;
+        private readonly IBus _bus;
+        private readonly IDomainNotificationHandler<DomainNotification> _notifications;
 
-        public EventoCommandHandler(IEventoRepository eventoRepository, IUnityOfWork uow) : base(uow)
+        public EventoCommandHandler(IEventoRepository eventoRepository, 
+                                    IUnityOfWork uow,
+                                    IBus bus,
+                                    IDomainNotificationHandler<DomainNotification> notifications) : base(uow, bus, notifications)
         {
             _eventoRepository = eventoRepository;
+            _bus = bus;
+            _notifications = notifications;
         }
 
-        public void Handle(ExcluirEventoCommand Message)
+        public void Handle(RegistrarEventoCommand message)
         {
-            var evento = new Evento(Message.Nome, Message.DataInicio, Message.DataFim,
-                                    Message.Gratuito, Message.Valor, Message.OnLine, Message.NomeEmpresa);
+            var evento = new Evento(message.Nome, message.DataInicio, message.DataFim,
+                                    message.Gratuito, message.Valor, message.OnLine, message.NomeEmpresa);
 
             if (!evento.EhValido())
             {
@@ -35,8 +41,9 @@ namespace Eventos.IO.Domain.Eventos.CommandHandlers
                 return;
             }
 
+            //TODO:
             //validações de Negócio
-
+            //Organizador pode registrar evento?
 
             //Persistência
             _eventoRepository.Add(evento);
@@ -44,6 +51,8 @@ namespace Eventos.IO.Domain.Eventos.CommandHandlers
             if (Commit())
             {
                 //Notificar processo concluído
+                Console.WriteLine("Evento registrado com sucesso.");
+                _bus.RaiseEvent(new EventoRegistradoEvent(evento.Id, evento.Nome, evento.DataInicio, evento.DataFim, evento.Gratuito,evento.Valor, evento.OnLine, evento.NomeEmpresa));
             }
         }
 
@@ -51,8 +60,8 @@ namespace Eventos.IO.Domain.Eventos.CommandHandlers
         {
             throw new NotImplementedException();
         }
-
-        public void Handle(RegistrarEventoCommand message)
+        
+        public void Handle(ExcluirEventoCommand Message)
         {
             throw new NotImplementedException();
         }

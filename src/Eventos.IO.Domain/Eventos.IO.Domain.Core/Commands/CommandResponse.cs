@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Eventos.IO.Domain.Core.Commands
+﻿namespace Eventos.IO.Domain.Core.Commands
 {
     public class CommandResponse
     {
@@ -16,7 +10,7 @@ namespace Eventos.IO.Domain.Core.Commands
             Success = success;
         }
 
-        public bool Success { get;private set; }
+        public bool Success { get; private set; }
 
     }
 }
