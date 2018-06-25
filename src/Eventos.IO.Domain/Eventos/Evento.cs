@@ -8,6 +8,9 @@ namespace Eventos.IO.Domain.Eventos
 {
     public class Evento : Entity<Evento>
     {
+        //construtor privado para utilizar o Factory
+        private Evento(){ }
+
         public Evento(string nome, 
                       DateTime dataInicio,
                       DateTime dataFim,
@@ -83,6 +86,9 @@ namespace Eventos.IO.Domain.Eventos
         private void Validar()
         {
             ValidarNome();
+            ValidarValor();
+            ValidarData();
+            
         }
 
         private void ValidarNome()
@@ -114,9 +120,9 @@ namespace Eventos.IO.Domain.Eventos
 
         public static class EventoFactory
         {
-            public static Evento NovoEventoCompleto(Guid id, string nome, string desCurta, string descLonga, 
-                                                    DateTime dataInicio, DateTime dataFim, bool gratuito, 
-                                                    decimal valor, bool online, string nomeEmpresa, Guid? OrganizadorId)
+            public static Evento NovoEventoCompleto(Guid id, string nome, string desCurta, string descLonga,
+                                                    DateTime dataInicio, DateTime dataFim, bool gratuito,
+                                                    decimal valor, bool online, string nomeEmpresa, Guid? organizadorId)
             {
                 var evento = new Evento()
                 {
@@ -132,9 +138,9 @@ namespace Eventos.IO.Domain.Eventos
                     NomeEmpresa = nomeEmpresa
                 };
 
-                if (OrganizadorId != null)
+                if (organizadorId != null)
                 {
-                    evento.Organizador = new Organizador(OrganizadorId.value);
+                    evento.Organizador = new Organizador(organizadorId.Value);
                 }
 
                 return evento;

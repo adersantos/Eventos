@@ -51,13 +51,13 @@
   <ItemGroup>
     <Compile Include="CommandHandlers\CommandHandler.cs" />
     <Compile Include="Eventos\Categoria.cs" />
-    <Compile Include="Eventos\CommandHandlers\EventoCommandHandler.cs" />
+    <Compile Include="Eventos\Commands\EventoCommandHandler.cs" />
     <Compile Include="Eventos\Commands\AtualizarEventoCommand.cs" />
     <Compile Include="Eventos\Commands\BaseEventoCommand.cs" />
     <Compile Include="Eventos\Commands\ExcluirEventoCommand.cs" />
     <Compile Include="Eventos\Commands\RegistrarEventoCommand.cs" />
     <Compile Include="Eventos\Endereco.cs" />
-    <Compile Include="Eventos\EventHandlers\EventoEventHandler.cs" />
+    <Compile Include="Eventos\Events\EventoEventHandler.cs" />
     <Compile Include="Eventos\Evento.cs" />
     <Compile Include="Eventos\Events\BaseEventoEvent.cs" />
     <Compile Include="Eventos\Events\EventoAtualizadoEvent.cs" />
