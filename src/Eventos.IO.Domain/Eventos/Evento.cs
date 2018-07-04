@@ -69,18 +69,14 @@ namespace Eventos.IO.Domain.Eventos
 
         #region EF Propriedades de navegação
         public Categoria Categoria { get; protected set; }
+
         public Endereco Endereco { get; protected set; }
+
         public Organizador Organizador { get; protected set; }
+
         public Dictionary<string, string> ErrosValidacao { get; set; }
         #endregion
-
-        public override bool EhValido()
-        {
-            Validar();
-
-            return false;
-        }
-
+                
         #region Validações
 
         private void Validar()
@@ -117,6 +113,13 @@ namespace Eventos.IO.Domain.Eventos
         }
 
         #endregion
+
+        public override bool EhValido()
+        {
+            Validar();
+
+            return false;
+        }
 
         public static class EventoFactory
         {
