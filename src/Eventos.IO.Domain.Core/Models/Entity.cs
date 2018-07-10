@@ -19,7 +19,6 @@ namespace Eventos.IO.Domain.Core.Models
 
         public ValidationResult ValidationResult { get; set; }
 
-
         public override bool Equals(object obj)
         {
             var compareTo = obj as Entity<T>;

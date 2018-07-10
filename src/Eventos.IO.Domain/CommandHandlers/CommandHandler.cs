@@ -6,6 +6,9 @@ using System;
 
 namespace Eventos.IO.Domain.CommandHandlers
 {
+    /// <summary>
+    /// Classe base para qualquer tipo de manipulador de comando
+    /// </summary>
     public abstract class CommandHandler
     {
 

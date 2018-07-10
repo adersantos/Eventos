@@ -76,15 +76,22 @@ namespace Eventos.IO.Domain.Eventos
 
         public Dictionary<string, string> ErrosValidacao { get; set; }
         #endregion
-                
+
         #region Validações
+        public override bool EhValido()
+        {
+            Validar();
+            return ValidationResult.IsValid;
+        }
 
         private void Validar()
         {
             ValidarNome();
             ValidarValor();
             ValidarData();
-            
+            ValidarLocal();
+            ValidarNomeEmpresa();
+            ValidationResult = Validate(this);
         }
 
         private void ValidarNome()
@@ -98,8 +105,13 @@ namespace Eventos.IO.Domain.Eventos
         {
             if(Gratuito)
             RuleFor(n => n.Valor)
-                .ExclusiveBetween(0 ,0).When( e => e.Gratuito)
-                .WithMessage("O valor não deve ser diferente de zero para evento gratuito.");
+                .ExclusiveBetween(0,0).When( e => e.Gratuito)
+                .WithMessage("O valor deve ser zero para evento gratuito.");
+
+            if (!Gratuito)
+                RuleFor(n => n.Valor)
+                    .ExclusiveBetween(1, 5000).When(e => e.Gratuito)
+                    .WithMessage("O valor deve estar entre 1,00 e 5.000,00.");
         }
 
         private void ValidarData()
@@ -112,14 +124,26 @@ namespace Eventos.IO.Domain.Eventos
                 .WithMessage("A data de início não deve ser menor que a data atual.");
         }
 
-        #endregion
-
-        public override bool EhValido()
+        private void ValidarLocal()
         {
-            Validar();
-
-            return false;
+            if (OnLine)
+                RuleFor(c => c.Endereco)
+                    .Null().When(c => c.OnLine)
+                    .WithMessage("O evetno não deve possuir endereço se online");
+            if (!Online)
+                RuleFor(c => c.Endereco)
+                    .NotNull().When(c => c.Online == false)
+                    .WithMessage("O evento deve possuir um endereço.");
         }
+
+        private void ValidarNomeEmpresa()
+        {
+            RuleFor(c => c.NomeEmpresa)
+                .NotEmpty().WithMessage("O nome do organizador precisa ser fornecido.")
+                .Length(2, 150).WithMessage("O nome do organizador precisa ter entre 2 e 150 caracteres.");
+        }
+
+        #endregion
 
         public static class EventoFactory
         {
