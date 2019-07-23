@@ -7,18 +7,18 @@ namespace Eventos.IO.Domain.Eventos.Interfaces
 {
     public interface IRepository<TEntity> : IDisposable where TEntity : Entity<TEntity>
     {
-        void Add(TEntity obj);
-
-        TEntity GetById(Guid Id);
-
-        IEnumerable<TEntity> GetAll();
-
-        void Update(TEntity obj);
-
-        void Remove(Guid Id);
-
-        IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
-
+        void Adicionar(TEntity obj);
+        
+        TEntity ObterPorId(Guid id);
+        
+        IEnumerable<TEntity> ObterTodos();
+        
+        void Atualizar(TEntity obj);
+        
+        void Remover(Guid id);
+        
+        IEnumerable<TEntity> Buscar(Expression<Func<TEntity, bool>> predicate);
+        
         int SaveChanges();
     }
 }

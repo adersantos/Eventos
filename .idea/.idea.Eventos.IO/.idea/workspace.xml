@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99a4ea99-c38c-43d5-9c85-19a6909b551b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Eventos.IO/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Eventos.IO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IMediatorHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Organizadores/Repository/IOrganizadorRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Context/EventosContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/EntityTypeConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/ModelBuilderExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Mappings/EventoMapping.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/EventoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/OrganizadorRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/Repository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/StartUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eventos.IO.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Eventos.IO.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Eventos.IO.Domain.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Eventos.IO.Domain.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Events/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Events/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotification.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotification.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Categoria.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Categoria.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Endereco.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Endereco.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Repository/IEventoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Repository/IEventoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Class1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Eventos.IO.Infra.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Eventos.IO.Infra.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/App_Start/BundleConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/App_Start/FilterConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/App_Start/RouteConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/App_Start/WebApiConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ApiDescriptionExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/App_Start/HelpPageConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Controllers/HelpController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/HelpPage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/HelpPageAreaRegistration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/CollectionModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ComplexTypeModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/DictionaryModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/EnumTypeModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/EnumValueDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/IModelDocumentationProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/KeyValuePairModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ModelNameAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ModelNameHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ParameterAnnotation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/ParameterDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/ModelDescriptions/SimpleTypeModelDescription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Models/HelpPageApiModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/ImageSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/InvalidSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/SampleDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/SampleGeneration/TextSample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/Api.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Help/ResourceModel.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Areas/HelpPage/XmlDocumentationProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Content/Site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Controllers/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Controllers/BaseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Controllers/ValuesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Controllers/ValuesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Eventos.IO.Services.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Eventos.IO.Services.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Global.asax" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Global.asax.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Project_Readme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/_references.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/ai.0.22.9-build00167.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/ai.0.22.9-build00167.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/jquery-1.10.2.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/jquery-1.10.2.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/modernizr-2.6.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/respond.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Scripts/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Views/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Web.Debug.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Web.Release.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eventos.IO.Services.Api/packages.config" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Context/EventosContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+              <folding>
+                <marker date="1563906393890" expanded="true" signature="6:205" ph="..." />
+                <marker date="1563906393890" expanded="true" signature="246:1136" ph="{...}" />
+                <marker date="1563906393890" expanded="true" signature="292:1134" ph="{...}" />
+                <marker date="1563906393890" expanded="true" signature="599:730" ph="{...}" />
+                <marker date="1563906393890" expanded="true" signature="817:1128" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Mappings/EventoMapping.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding>
+                <marker date="1563903427506" expanded="true" signature="6:164" ph="..." />
+                <marker date="1563903427506" expanded="true" signature="206:1402" ph="{...}" />
+                <marker date="1563903427506" expanded="true" signature="273:1400" ph="{...}" />
+                <marker date="1563903427506" expanded="true" signature="347:1394" ph="{...}" />
+                <marker date="1563903427506" expanded="true" signature="358:1384" ph="/* builder.Property(e =&gt; e.Nome) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/EventoRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding>
+                <marker date="1563904066727" expanded="true" signature="6:161" ph="..." />
+                <marker date="1563904066727" expanded="true" signature="205:2685" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="281:2683" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="359:392" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="458:697" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="763:823" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="881:944" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="1005:1268" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="1358:1678" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="1743:1886" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="1946:2494" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="2287:2421" ph="{...}" />
+                <marker date="1563904066727" expanded="true" signature="2549:2677" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>OnModel</find>
+      <find>Configuration</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD7BBB1E-B6CB-4178-A82C-D5136B2606B8/d1/5112327a/IApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/24/7619f112/MvcApplicationBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IMediatorHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/647CCDFF-6E85-4DCE-AE9F-7CB0FE40D3E0/14/348dc213/INotificationHandler`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Mappings/EventoMapping.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.106/IEventoRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/EventoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Context/EventosContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/EntityTypeConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/ModelBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotificationHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/IDomainNotificationHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotification.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Commands/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/14/b07cf208/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Models/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Events/Event.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Services.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/OrganizadorRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Evento.IO.Application/ViewModel/EnderecoViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Organizadores/Repository/IOrganizadorRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/CommandHandlers/CommandHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Organizadores/Organizador.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/6b/41b3c849/ModelBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Services.Api/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/221FA654-76FD-4A6A-A7BE-C2CD9B5A08D9/a1/b4f69383/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Endereco.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Categoria.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Repository/IEventoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BF71446-6FEB-451A-AD21-DE19C6C5E33E/fc/3a818a3c/HstsBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Services.Api/StartUp.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Configurations/RouteConvention.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Program.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Categoria.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Models/Entity.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Endereco.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IUser.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IMediatorHandler.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/Controllers/BaseController.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotification.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Events/Event.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/EventoViewModel.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/EnderecoViewModel.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/CategoriaViewModel.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/EstadoViewModel.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/OrganizadorViewModel.cs" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Services.Api/Controllers/EventosController.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Repository/IEventoRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Eventos.IO.Infra.Data.csproj" />
+        <option value="$PROJECT_DIR$/Eventos.IO.Infra.Data/Class1.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/EntityTypeConfiguration.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/ModelBuilderExtensions.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Mappings/EventoMapping.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/EventoRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/Repository.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Organizadores/Repository/IOrganizadorRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/OrganizadorRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IRepository.cs" />
+        <option value="$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Context/EventosContext.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1935" />
+    <option name="y" value="1" />
+    <option name="width" value="980" />
+    <option name="height" value="517" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="4 - Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="4 - Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eventos.IO.Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="4 - Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eventos.IO.Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Organizadores" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5 - Infra" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5 - Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5.1 - Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5 - Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5.1 - Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eventos.IO.Infra.Data" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5 - Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5.1 - Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eventos.IO.Infra.Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Extensions" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eventos.IO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5 - Infra" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="5.1 - Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eventos.IO.Infra.Data" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repository" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Eventos.IO.Services.Api/Eventos.IO.Services.Api.csproj" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99a4ea99-c38c-43d5-9c85-19a6909b551b" name="Default Changelist" comment="" />
+      <created>1563806514669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563806514669</updated>
+      <workItem from="1563806516258" duration="23240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23240000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986681" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="NuGet" visible="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32977587" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.32977587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24986681" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" visible="true" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="REST Client" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.32977587" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" />
+      <window_info anchor="bottom" id="Run" order="11" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="15" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Models/Entity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <marker date="1563815514596" expanded="true" signature="6:69" ph="..." />
+            <marker date="1563815514596" expanded="true" signature="110:1522" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="117:199" ph="/* Poderá ser somente herdada ... */" />
+            <marker date="1563815514596" expanded="true" signature="278:1520" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="311:386" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="589:828" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="894:1142" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="1208:1258" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="1301:1392" ph="{...}" />
+            <marker date="1563815514596" expanded="true" signature="1435:1512" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/221FA654-76FD-4A6A-A7BE-C2CD9B5A08D9/a1/b4f69383/IConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding>
+            <marker date="1562849904792" expanded="true" signature="0:467" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1562849904792" expanded="false" signature="475:541" ph="..." />
+            <marker date="1562849904792" expanded="true" signature="587:2077" ph="{...}" />
+            <marker date="1562849904792" expanded="true" signature="592:696" ph="/// Represents a set of key/value application configuration properties. ... " />
+            <marker date="1562849904792" expanded="true" signature="730:2075" ph="{...}" />
+            <marker date="1562849904792" expanded="true" signature="739:906" ph="///Gets or sets a configuration value. ... " />
+            <marker date="1562849904792" expanded="true" signature="954:1494" ph="/// Gets a configuration sub-section with the specified key. ... " />
+            <marker date="1562849904792" expanded="true" signature="1550:1707" ph="/// Gets the immediate descendant configuration sub-sections. ... " />
+            <marker date="1562849904792" expanded="true" signature="1767:2036" ph="/// Returns a &lt;see cref=&quot;T:Microsoft.Extensions.Primitives.IChangeToken&quot; /&gt; that can be used to observe when this ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Eventos.IO.Services.Api.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/app.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/packages.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BF71446-6FEB-451A-AD21-DE19C6C5E33E/fc/3a818a3c/HstsBuilderExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <marker date="1563885986210" expanded="true" signature="0:423" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1563885986210" expanded="false" signature="431:478" ph="..." />
+            <marker date="1563885986210" expanded="true" signature="518:1118" ph="{...}" />
+            <marker date="1563885986210" expanded="true" signature="632:1116" ph="{...}" />
+            <marker date="1563885986210" expanded="true" signature="641:896" ph="/// Adds middleware for using HSTS, which adds the Strict-Transport-Security header. ... " />
+            <marker date="1563885986210" expanded="true" signature="972:1112" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DD7BBB1E-B6CB-4178-A82C-D5136B2606B8/d1/5112327a/IApplicationBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <marker date="1563886024872" expanded="true" signature="0:428" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1563886024872" expanded="false" signature="436:552" ph="..." />
+            <marker date="1563886024872" expanded="true" signature="592:2324" ph="{...}" />
+            <marker date="1563886024872" expanded="true" signature="597:726" ph="/// Defines a class that provides the mechanisms to configure an application's request pipeline. ... " />
+            <marker date="1563886024872" expanded="true" signature="765:2322" ph="{...}" />
+            <marker date="1563886024872" expanded="true" signature="774:933" ph="/// Gets or sets the &lt;see cref=&quot;T:System.IServiceProvider&quot; /&gt; that provides access to the application's service c ... " />
+            <marker date="1563886024872" expanded="true" signature="994:1099" ph="/// Gets the set of HTTP features the application's server provides. ... " />
+            <marker date="1563886024872" expanded="true" signature="1152:1271" ph="/// Gets a key/value collection that can be used to share data between middleware. ... " />
+            <marker date="1563886024872" expanded="true" signature="1329:1599" ph="/// Adds a middleware delegate to the application's request pipeline. ... " />
+            <marker date="1563886024872" expanded="true" signature="1685:2083" ph="/// Creates a new &lt;see cref=&quot;T:Microsoft.AspNetCore.Builder.IApplicationBuilder&quot; /&gt; that shares the &lt;see cref=&quot;P: ... " />
+            <marker date="1563886024872" expanded="true" signature="2120:2289" ph="/// Builds the delegate used by this application to process HTTP requests. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4EF600F-4A59-4FE2-865A-8F97F915FB9D/24/7619f112/MvcApplicationBuilderExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/CommandHandlers/CommandHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <marker date="1563806509100" expanded="false" signature="6:159" ph="..." />
+            <marker date="1563806509100" expanded="true" signature="204:1663" ph="{...}" />
+            <marker date="1563806509100" expanded="true" signature="211:308" ph="/// Classe base para qualquer tipo de manipulador de comando ... " />
+            <marker date="1563806509100" expanded="true" signature="349:1661" ph="{...}" />
+            <marker date="1563806509100" expanded="true" signature="648:760" ph="{...}" />
+            <marker date="1563806509100" expanded="true" signature="843:1102" ph="{...}" />
+            <marker date="1563806509100" expanded="true" signature="912:1092" ph="{...}" />
+            <marker date="1563806509100" expanded="true" signature="1135:1655" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <marker date="1563889930708" expanded="true" signature="6:77" ph="..." />
+            <marker date="1563889930708" expanded="true" signature="117:295" ph="{...}" />
+            <marker date="1563889930708" expanded="true" signature="146:293" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/IDomainNotificationHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1563806509099" expanded="false" signature="6:152" ph="..." />
+            <marker date="1563806509099" expanded="true" signature="200:369" ph="{...}" />
+            <marker date="1563806509099" expanded="true" signature="285:367" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotificationHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <marker date="1563806509098" expanded="false" signature="6:52" ph="..." />
+            <marker date="1563806509098" expanded="true" signature="100:837" ph="{...}" />
+            <marker date="1563806509098" expanded="true" signature="194:835" ph="{...}" />
+            <marker date="1563806509098" expanded="true" signature="302:383" ph="{...}" />
+            <marker date="1563806509098" expanded="true" signature="443:498" ph="{...}" />
+            <marker date="1563806509098" expanded="true" signature="554:615" ph="{...}" />
+            <marker date="1563806509098" expanded="true" signature="655:716" ph="{...}" />
+            <marker date="1563806509098" expanded="true" signature="747:828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/647CCDFF-6E85-4DCE-AE9F-7CB0FE40D3E0/14/348dc213/INotificationHandler`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1563891062304" expanded="true" signature="0:317" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1563891062304" expanded="false" signature="325:372" ph="..." />
+            <marker date="1563891062304" expanded="true" signature="391:579" ph="{...}" />
+            <marker date="1563891062304" expanded="true" signature="487:577" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos.IO.Domain.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IMediatorHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1563890021116" expanded="true" signature="6:105" ph="..." />
+            <marker date="1563890021116" expanded="true" signature="145:317" ph="{...}" />
+            <marker date="1563890021116" expanded="true" signature="185:315" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Events/Event.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <marker date="1563899387627" expanded="true" signature="54:250" ph="{...}" />
+            <marker date="1563899387627" expanded="true" signature="98:248" ph="{...}" />
+            <marker date="1563899387627" expanded="true" signature="184:242" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain.Core/Notifications/DomainNotification.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <marker date="1563899400036" expanded="true" signature="6:50" ph="..." />
+            <marker date="1563899400036" expanded="true" signature="98:602" ph="{...}" />
+            <marker date="1563899400036" expanded="true" signature="144:600" ph="{...}" />
+            <marker date="1563899400036" expanded="true" signature="448:594" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Controllers/BaseController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Categoria.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <marker date="1563814894081" expanded="true" signature="6:110" ph="..." />
+            <marker date="1563814894081" expanded="true" signature="147:509" ph="{...}" />
+            <marker date="1563814894081" expanded="true" signature="196:507" ph="{...}" />
+            <marker date="1563814894081" expanded="true" signature="456:501" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/EnderecoViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/CategoriaViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/EstadoViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/OrganizadorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/ViewModels/EventoViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.106/IEventoRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Endereco.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <marker date="1563818275570" expanded="false" signature="6:74" ph="..." />
+            <marker date="1563818275570" expanded="true" signature="111:2549" ph="{...}" />
+            <marker date="1563818275570" expanded="true" signature="158:2547" ph="{...}" />
+            <marker date="1563818275570" expanded="false" signature="790:1079" ph="{...}" />
+            <marker date="1563818275570" expanded="true" signature="1190:2541" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Services.Api/Controllers/EventosController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Eventos.IO.Infra.Data.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="40" column="34" lean-forward="true" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eventos.IO.Infra.Data/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <marker date="1563901677082" expanded="false" signature="6:14" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Evento.IO.Application/ViewModel/EnderecoViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1563806509088" expanded="false" signature="6:80" ph="..." />
+            <marker date="1563806509088" expanded="true" signature="123:922" ph="{...}" />
+            <marker date="1563806509088" expanded="true" signature="160:920" ph="{...}" />
+            <marker date="1563806509088" expanded="true" signature="202:255" ph="{...}" />
+            <marker date="1563806509088" expanded="true" signature="292:394" ph="{...}" />
+            <marker date="1563806509088" expanded="true" signature="803:914" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/EntityTypeConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="69" selection-start-line="6" selection-start-column="69" selection-end-line="6" selection-end-column="69" />
+          <folding>
+            <marker date="1563903024881" expanded="true" signature="98:265" ph="{...}" />
+            <marker date="1563903024881" expanded="true" signature="181:263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Extensions/ModelBuilderExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1563903073571" expanded="true" signature="80:369" ph="{...}" />
+            <marker date="1563903073571" expanded="true" signature="122:367" ph="{...}" />
+            <marker date="1563903073571" expanded="true" signature="278:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/14/b07cf208/DbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="344" column="43" selection-start-line="344" selection-start-column="36" selection-end-line="344" selection-end-column="43" />
+          <folding>
+            <marker date="1563903606129" expanded="true" signature="0:392" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1563903606129" expanded="false" signature="400:1076" ph="..." />
+            <marker date="1563903606129" expanded="true" signature="1117:72772" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="1122:3151" ph="///     A DbContext instance represents a session with the database and can be used to query and save ... " />
+            <marker date="1563903606129" expanded="true" signature="3297:72770" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="3780:4224" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="4317:4329" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="4335:4853" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="4910:5375" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="5381:5506" ph="///     Provides access to database related information and operations for this context. ... " />
+            <marker date="1563903606129" expanded="true" signature="5549:5695" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="5565:5689" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="5701:5838" ph="///     Provides access to information and operations for entity instances this context is tracking. ... " />
+            <marker date="1563903606129" expanded="true" signature="5885:6068" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="5901:6062" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6074:6226" ph="///     The metadata about the shape of entities, the relationships between them, and how they map to the databas ... " />
+            <marker date="1563903606129" expanded="true" signature="6258:6367" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6296:6361" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6418:6509" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6434:6503" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6564:6657" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6580:6651" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6726:6827" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6742:6821" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6889:6984" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="6905:6978" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7039:7133" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7055:7127" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7192:7288" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7208:7282" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7357:7458" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7373:7452" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7543:7637" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7559:7631" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7738:7840" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7754:7834" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="7908:8234" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="8121:8210" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="8308:8661" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="8534:8635" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="8667:9022" ph="///     Creates a &lt;see cref=&quot;T:Microsoft.EntityFrameworkCore.DbSet`1&quot; /&gt; that can be used to query and save insta ... " />
+            <marker date="1563903606129" expanded="true" signature="9093:9225" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="9231:9583" ph="///     Creates a &lt;see cref=&quot;T:Microsoft.EntityFrameworkCore.DbQuery`1&quot; /&gt; that can be used to query instances of ... " />
+            <marker date="1563903606129" expanded="true" signature="9655:9793" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="9838:10472" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="9938:10240" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="10526:11940" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="10542:11934" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="10814:11790" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="11806:11864" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="11998:12241" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="12036:12235" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="12301:12446" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="12452:13606" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="13696:13708" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="13714:14701" ph="///     Override this method to further configure the model that was discovered by convention from the entity typ ... " />
+            <marker date="1563903606129" expanded="true" signature="14780:14792" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="14798:15981" ph="///     Saves all changes made in this context to the database. ... " />
+            <marker date="1563903606129" expanded="true" signature="16018:16067" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="16073:17530" ph="///     Saves all changes made in this context to the database. ... " />
+            <marker date="1563903606129" expanded="true" signature="17597:18325" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="17745:18005" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="18051:18184" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="18211:18319" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="18362:18488" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="18494:20253" ph="///     Asynchronously saves all changes made in this context to the database. ... " />
+            <marker date="1563903606129" expanded="true" signature="20366:20439" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="20445:22478" ph="///     Asynchronously saves all changes made in this context to the database. ... " />
+            <marker date="1563903606129" expanded="true" signature="22642:23497" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="22849:23147" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="23193:23332" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="23359:23473" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="23562:23615" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="23698:23936" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="24040:25219" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="24165:24731" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="25014:25134" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="25261:26822" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="25423:25505" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="25516:26038" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="25661:25749" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="25762:26030" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="26160:26299" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="26329:26540" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="26409:26532" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="26573:26787" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="26656:26779" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="26828:26923" ph="///     Releases the allocated resources for this context. ... " />
+            <marker date="1563903606129" expanded="true" signature="26957:27525" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="27531:27986" ph="///     Gets an &lt;see cref=&quot;T:Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry`1&quot; /&gt; for the given entity. ... " />
+            <marker date="1563903606129" expanded="true" signature="28089:28277" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="28384:28510" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="28516:29293" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="29355:29533" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="29599:29707" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="29792:30042" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="30194:30504" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="30510:31501" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="31602:31753" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="31759:33170" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="33374:33683" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="33689:35417" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="35521:35676" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="35682:37913" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="38017:38171" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="38177:39952" ph="///     Begins tracking the given entity in the &lt;see cref=&quot;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&quot; / ... " />
+            <marker date="1563903606129" expanded="true" signature="40056:40543" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="40683:40896" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="40902:41819" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="41879:42020" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="42026:43544" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="43701:43991" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="43997:45651" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="45714:45859" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="45865:48029" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="48092:48236" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="48242:49950" ph="///     Begins tracking the given entity in the &lt;see cref=&quot;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&quot; / ... " />
+            <marker date="1563903606129" expanded="true" signature="50013:50481" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="50561:50756" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="50762:51210" ph="///     Begins tracking the given entities, and any other reachable entities that are ... " />
+            <marker date="1563903606129" expanded="true" signature="51279:51372" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="51378:52311" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="52385:52515" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="52521:53757" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="53829:53925" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="53931:55681" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="55753:55849" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="55855:57169" ph="///     Begins tracking the given entity in the &lt;see cref=&quot;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&quot; / ... " />
+            <marker date="1563903606129" expanded="true" signature="57241:57337" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="57426:57637" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="57643:58091" ph="///     Begins tracking the given entities, and any other reachable entities that are ... " />
+            <marker date="1563903606129" expanded="true" signature="58164:58316" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="58322:59428" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="59592:59867" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="59873:61109" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="61185:61341" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="61347:63097" ph="///     &lt;para&gt; ... " />
+            <marker date="1563903606129" expanded="true" signature="63173:63328" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="63334:64686" ph="///     Begins tracking the given entity in the &lt;see cref=&quot;F:Microsoft.EntityFrameworkCore.EntityState.Deleted&quot; / ... " />
+            <marker date="1563903606129" expanded="true" signature="64762:65381" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="64985:65375" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="65387:66112" ph="///     Finds an entity with the given primary key values. If an entity with the given primary key values ... " />
+            <marker date="1563903606129" expanded="true" signature="66209:66303" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="66309:67034" ph="///     Finds an entity with the given primary key values. If an entity with the given primary key values ... " />
+            <marker date="1563903606129" expanded="true" signature="67142:67266" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="67272:68150" ph="///     Finds an entity with the given primary key values. If an entity with the given primary key values ... " />
+            <marker date="1563903606129" expanded="true" signature="68307:68425" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="68431:69161" ph="///     Finds an entity with the given primary key values. If an entity with the given primary key values ... " />
+            <marker date="1563903606129" expanded="true" signature="69263:69390" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="69396:70126" ph="///     Finds an entity with the given primary key values. If an entity with the given primary key values ... " />
+            <marker date="1563903606129" expanded="true" signature="70239:70396" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="70402:71285" ph="///     Finds an entity with the given primary key values. If an entity with the given primary key values ... " />
+            <marker date="1563903606129" expanded="true" signature="71447:71598" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="71663:71746" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="71679:71740" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="71752:71923" ph="///     Returns a string that represents the current object. ... " />
+            <marker date="1563903606129" expanded="true" signature="72011:72053" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="72059:72366" ph="///     Determines whether the specified object is equal to the current object. ... " />
+            <marker date="1563903606129" expanded="true" signature="72460:72503" ph="{...}" />
+            <marker date="1563903606129" expanded="true" signature="72509:72633" ph="///Serves as the default hash function. ... " />
+            <marker date="1563903606129" expanded="true" signature="72721:72766" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Eventos/Repository/IEventoRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1563900974075" expanded="false" signature="6:159" ph="..." />
+            <marker date="1563900974075" expanded="true" signature="207:557" ph="{...}" />
+            <marker date="1563900974075" expanded="true" signature="270:555" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Organizadores/Repository/IOrganizadorRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+          <folding>
+            <marker date="1563905740367" expanded="true" signature="97:193" ph="{...}" />
+            <marker date="1563905740367" expanded="true" signature="170:191" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Organizadores/Organizador.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1563806509106" expanded="false" signature="6:50" ph="..." />
+            <marker date="1563806509106" expanded="true" signature="93:325" ph="{...}" />
+            <marker date="1563806509106" expanded="true" signature="146:323" ph="{...}" />
+            <marker date="1563806509106" expanded="true" signature="188:229" ph="{...}" />
+            <marker date="1563806509106" expanded="true" signature="270:317" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/OrganizadorRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+          <folding>
+            <marker date="1563905772985" expanded="true" signature="6:125" ph="..." />
+            <marker date="1563905772985" expanded="true" signature="169:371" ph="{...}" />
+            <marker date="1563905772985" expanded="true" signature="260:369" ph="{...}" />
+            <marker date="1563905772985" expanded="true" signature="343:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Domain/Interfaces/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <marker date="1563905849449" expanded="false" signature="6:115" ph="..." />
+            <marker date="1563905849449" expanded="true" signature="163:613" ph="{...}" />
+            <marker date="1563905849449" expanded="true" signature="253:611" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <marker date="1563904736655" expanded="true" signature="6:252" ph="..." />
+            <marker date="1563904736655" expanded="true" signature="296:1505" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="399:1503" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="531:611" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="655:703" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="747:840" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="927:1005" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="1071:1126" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="1170:1221" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="1259:1321" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="1355:1412" ph="{...}" />
+            <marker date="1563904736655" expanded="true" signature="1451:1497" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Mappings/EventoMapping.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <marker date="1563903427506" expanded="true" signature="6:164" ph="..." />
+            <marker date="1563903427506" expanded="true" signature="206:1402" ph="{...}" />
+            <marker date="1563903427506" expanded="true" signature="273:1400" ph="{...}" />
+            <marker date="1563903427506" expanded="true" signature="347:1394" ph="{...}" />
+            <marker date="1563903427506" expanded="true" signature="358:1384" ph="/* builder.Property(e =&gt; e.Nome) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Repository/EventoRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <marker date="1563904066727" expanded="true" signature="6:161" ph="..." />
+            <marker date="1563904066727" expanded="true" signature="205:2685" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="281:2683" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="359:392" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="458:697" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="763:823" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="881:944" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="1005:1268" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="1358:1678" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="1743:1886" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="1946:2494" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="2287:2421" ph="{...}" />
+            <marker date="1563904066727" expanded="true" signature="2549:2677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6BCDFAAE-EEF5-425B-99B4-BFDE66161A46/6b/41b3c849/ModelBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="119" column="38" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Eventos.IO.Infra.Data/Context/EventosContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding>
+            <marker date="1563906393890" expanded="true" signature="6:205" ph="..." />
+            <marker date="1563906393890" expanded="true" signature="246:1136" ph="{...}" />
+            <marker date="1563906393890" expanded="true" signature="292:1134" ph="{...}" />
+            <marker date="1563906393890" expanded="true" signature="599:730" ph="{...}" />
+            <marker date="1563906393890" expanded="true" signature="817:1128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

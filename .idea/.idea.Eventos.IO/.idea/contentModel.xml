@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ader.santos\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ader.santos\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Eventos.IO.1870496228.00" t="ExcludeRecursive" />
+    <e p="D:\Desenvolvimento\Eventos" t="IncludeFlat">
+      <e p="1 - Presentation" t="Include" />
+      <e p="2 - Services" t="Include" />
+      <e p="3 - Application" t="Include" />
+      <e p="4 - Domain" t="Include" />
+      <e p="5 - Infra" t="Include">
+        <e p="5.1 - Data" t="Include" />
+        <e p="5.2 - CrossCutting" t="Include" />
+      </e>
+      <e p="Eventos.IO.Presentation" t="IncludeRecursive">
+        <e p="Eventos.IO.Presentation.xproj" t="IncludeRecursive" />
+      </e>
+      <e p="Eventos.IO.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src\Evento.IO.Application" t="IncludeRecursive">
+        <e p="AutoMapper" t="Include">
+          <e p="AutoMapperConfiguration.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Eventos.IO.Application.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="EventoAppService.cs" t="Include" />
+          <e p="IEventoAppService.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include" />
+        <e p="ViewModel" t="Include">
+          <e p="CategoriaViewModel.cs" t="Include" />
+          <e p="EnderecoViewModel.cs" t="Include" />
+          <e p="EstadoViewModel.cs" t="Include" />
+          <e p="EventoViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="src\Eventos.IO.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CommandHandlers" t="Include">
+          <e p="CommandHandler.cs" t="Include" />
+        </e>
+        <e p="Eventos" t="Include">
+          <e p="Categoria.cs" t="Include" />
+          <e p="Commands" t="Include">
+            <e p="AtualizarEventoCommand.cs" t="Include" />
+            <e p="BaseEventoCommand.cs" t="Include" />
+            <e p="EventoCommandHandler.cs" t="Include" />
+            <e p="ExcluirEventoCommand.cs" t="Include" />
+            <e p="RegistrarEventoCommand.cs" t="Include" />
+          </e>
+          <e p="Endereco.cs" t="Include" />
+          <e p="Evento.cs" t="Include" />
+          <e p="Events" t="Include">
+            <e p="BaseEventoEvent.cs" t="Include" />
+            <e p="EventoAtualizadoEvent.cs" t="Include" />
+            <e p="EventoEventHandler.cs" t="Include" />
+            <e p="EventoExcluidoEvent.cs" t="Include" />
+            <e p="EventoRegistradoEvent.cs" t="Include" />
+          </e>
+          <e p="Repository" t="Include">
+            <e p="IEventoRepository.cs" t="Include" />
+          </e>
+          <e p="Tags.cs" t="Include" />
+        </e>
+        <e p="Eventos.IO.Domain.csproj" t="IncludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IMediatorHandler.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="IUnityOfWork.cs" t="Include" />
+          <e p="IUser.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Organizadores" t="Include">
+          <e p="Organizador.cs" t="Include" />
+          <e p="Repository" t="Include">
+            <e p="IOrganizadorRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="src\Eventos.IO.Domain.Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bus" t="Include">
+          <e p="IBus.cs" t="Include" />
+        </e>
+        <e p="Commands" t="Include">
+          <e p="Command.cs" t="Include" />
+          <e p="CommandResponse.cs" t="Include" />
+        </e>
+        <e p="Eventos.IO.Domain.Core.csproj" t="IncludeRecursive" />
+        <e p="Events" t="Include">
+          <e p="Event.cs" t="Include" />
+          <e p="IHandler.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Entity.cs" t="Include" />
+        </e>
+        <e p="Notifications" t="Include">
+          <e p="DomainNotification.cs" t="Include" />
+          <e p="DomainNotificationHandler.cs" t="Include" />
+          <e p="IDomainNotificationHandler.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="src\Eventos.IO.Infra.Data" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Context" t="Include">
+          <e p="EventosContext.cs" t="Include" />
+        </e>
+        <e p="Eventos.IO.Infra.Data.csproj" t="IncludeRecursive" />
+        <e p="Extensions" t="Include">
+          <e p="EntityTypeConfiguration.cs" t="Include" />
+          <e p="ModelBuilderExtensions.cs" t="Include" />
+        </e>
+        <e p="Mappings" t="Include">
+          <e p="EventoMapping.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eventos.IO.Infra.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repository" t="Include">
+          <e p="EventoRepository.cs" t="Include" />
+          <e p="OrganizadorRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="src\Eventos.IO.Services.Api" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="EventosController.cs" t="Include" />
+        </e>
+        <e p="Eventos.IO.Services.Api.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eventos.IO.Services.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="StartUp.cs" t="Include" />
+        <e p="ViewModels" t="Include">
+          <e p="CategoriaViewModel.cs" t="Include" />
+          <e p="EnderecoViewModel.cs" t="Include" />
+          <e p="EstadoViewModel.cs" t="Include" />
+          <e p="EventoViewModel.cs" t="Include" />
+          <e p="OrganizadorViewModel.cs" t="Include" />
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

@@ -68,10 +68,13 @@
     <Compile Include="Eventos\Events\EventoExcluidoEvent.cs" />
     <Compile Include="Eventos\Events\EventoRegistradoEvent.cs" />
     <Compile Include="Eventos\Repository\IEventoRepository.cs" />
+    <Compile Include="Interfaces\IMediatorHandler.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IUnityOfWork.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Organizadores\Organizador.cs" />
     <Compile Include="Eventos\Tags.cs" />
+    <Compile Include="Organizadores\Repository\IOrganizadorRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
