@@ -7,11 +7,11 @@ namespace Eventos.IO.Domain.Core.Notifications
     {
         public Guid DomainNotificationId { get; private set; }
 
-        public string Key { get;private set; }//nome do Evento
+        public string Key { get; private set; }//nome do Evento
 
-        public string Value { get;private set; }//mensagem
+        public string Value { get; private set; }//mensagem
 
-        public int Version { get;private set; }
+        public int Version { get; private set; }
 
 
         public DomainNotification(string key, string value)

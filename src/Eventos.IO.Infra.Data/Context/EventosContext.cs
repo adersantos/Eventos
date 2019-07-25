@@ -28,7 +28,7 @@ namespace Eventos.IO.Infra.Data.Context
                 .AddJsonFile("appsettings.json")
                 .Build();
             
-            optionsBuilder.UseSqlServe(config.GetConnectionString("DefaultConnection"));
+            optionsBuilder.UseModel(config.GetConnectionString("DefaultConnection"));
         }
     }
 }

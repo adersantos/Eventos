@@ -27,14 +27,6 @@ namespace Eventos.IO.Domain.Eventos
             Valor = valor;
             OnLine = onLine;
             NomeEmpresa = nomeEmpresa;
-
-            ErrosValidacao = new Dictionary<string, string>();
-            if (nome.Length < 3)
-                ErrosValidacao.Add("Nome: ","O nome do evento não pode ser menor que 3");
-
-            if (gratuito && valor != 0)
-                ErrosValidacao.Add("Valor: ","Não pode ter valor sendo gratuito");
-
         }
 
         public string Nome { get; protected set; }
@@ -104,7 +96,7 @@ namespace Eventos.IO.Domain.Eventos
         private void ValidarValor()
         {
             if(Gratuito)
-            RuleFor(n => n.Valor)
+                RuleFor(n => n.Valor)
                 .ExclusiveBetween(0,0).When( e => e.Gratuito)
                 .WithMessage("O valor deve ser zero para evento gratuito.");
 

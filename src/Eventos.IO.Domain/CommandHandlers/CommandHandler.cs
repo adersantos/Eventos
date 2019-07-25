@@ -16,7 +16,9 @@ namespace Eventos.IO.Domain.CommandHandlers
         private readonly IBus _bus;
         private readonly IDomainNotificationHandler<DomainNotification> _notifications;
 
-        protected CommandHandler(IUnityOfWork uow, IBus bus, IDomainNotificationHandler<DomainNotification> notifications)
+        protected CommandHandler(IUnityOfWork uow, 
+                                 IBus bus, 
+                                 IDomainNotificationHandler<DomainNotification> notifications)
         {
             _uow = uow;
             _bus = bus;
@@ -42,7 +44,7 @@ namespace Eventos.IO.Domain.CommandHandlers
             if (commandResponse.Success)
                 return true;
 
-            Console.WriteLine("Ocorreu um erro ao salvar os dados no banco");
+//            Console.WriteLine("Ocorreu um erro ao salvar os dados no banco");
             _bus.RaiseEvent(new DomainNotification("Commit", "Ocorreu um erro ao salvar os dados no banco"));
             return false;
 

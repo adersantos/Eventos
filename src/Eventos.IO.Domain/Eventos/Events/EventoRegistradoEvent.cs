@@ -22,7 +22,7 @@ namespace Eventos.IO.Domain.Eventos.Events
             OnLine = onLine;
             NomeEmpresa = nomeEmpresa;
 
-            AggregateId = id;  
+            AggregateId = id;
         }
     }
 }

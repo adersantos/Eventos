@@ -31,8 +31,7 @@ namespace Eventos.IO.Domain.Eventos.Commands
 
         public void Handle(RegistrarEventoCommand message)
         {
-            var evento = new Evento(message.Nome, message.DataInicio, message.DataFim,
-                                    message.Gratuito, message.Valor, message.OnLine, message.NomeEmpresa);
+            var evento = new Evento(message.Nome, message.DataInicio, message.DataFim, message.Gratuito, message.Valor, message.OnLine, message.NomeEmpresa);
 
             if(!EventoValido(evento)) return;
 
@@ -41,7 +40,7 @@ namespace Eventos.IO.Domain.Eventos.Commands
             //Organizador pode registrar evento?
 
             //Persistência
-            _eventoRepository.Add(evento);
+            _eventoRepository.Adicionar(evento);
 
             if (Commit())
             {
@@ -64,7 +63,7 @@ namespace Eventos.IO.Domain.Eventos.Commands
 
             if (!EventoValido(evento)) return;
 
-            _eventoRepository.Update(evento);
+            _eventoRepository.Atualizar(evento);
 
             //se evento foi atualizado com sucesso
             if (Commit())
@@ -73,7 +72,6 @@ namespace Eventos.IO.Domain.Eventos.Commands
                                                           evento.DataInicio, evento.DataFim, evento.Gratuito, evento.Valor,
                                                           evento.Online, evento.NomeEmpresa));
             }
-
         }
         
         public void Handle(ExcluirEventoCommand message)
@@ -100,7 +98,7 @@ namespace Eventos.IO.Domain.Eventos.Commands
         //método para validações se evento existe
         private bool EventoExistente(Guid id, string messageType)
         {
-            var evento = _eventoRepository.GetById(id);
+            var evento = _eventoRepository.ObterPorId(id);
 
             if (evento != null) return true;
 

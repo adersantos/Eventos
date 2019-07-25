@@ -32,6 +32,5 @@ namespace Eventos.IO.Domain.Core.Notifications
         {
             _notifications = new List<DomainNotification>();
         }
-
     }
 }

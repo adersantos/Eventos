@@ -53,7 +53,5 @@ namespace Eventos.IO.Domain.Core.Models
         {
             return GetType().Name + "[Id = " + Id + "]";
         }
-
-
     }
 }

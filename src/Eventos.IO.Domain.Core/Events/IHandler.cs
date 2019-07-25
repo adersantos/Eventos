@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Eventos.IO.Domain.Core.Events
 {
     /// <summary>
-    /// Utilizando Contra Variância
+    /// Utilizando Contra Variância - tipos menos ou mais derivados
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public interface IHandler<in T> where T : Message
